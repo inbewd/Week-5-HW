@@ -1,6 +1,6 @@
 Alright, here we are again
 
-I know I'll need a ```.gitignore``` for the ```library.db```  
+I know I'll need a .gitignore for the library.db  
 as well as a Gemfile I need to ```bundler install``` to get the Gemfile.lock  
 Including:
 * activerecord (caps and underscore/spacing notwithstanding...until I fixed it - I was close!)
@@ -18,24 +18,37 @@ checking plurality on "models"... ok good. That always gets me about ActiveRecor
 
 and I'll make a execute.rb file in the root directory(is it the root? I mean definitely not the root of my operating system but the least-nested directory for the assignment/program. yeah)
 
-and I'm not sure if ```execute.rb``` is a good name, best practices and all. the example library_with_books has it as a pry...but I'm not really using the pry gem...so whatevs
+and I'm not sure if "execute.rb" is a good name, best practices and all. the example library_with_books has it as a pry...but I'm not really using the pry gem...so whatevs
 
 alright, good enough for now, making a commit
 
 ---
-alright, let's fill in ```connect.rb```
+alright, let's fill in connect.rb
 
 I literally just copypasta'd the file from library_with_books, didn't even know there was an annoying I18n warning to deprecate
 
-also filled in ```execute.rb``` in a similar fashion, only really needed to load in ```/models``` and ```/connect``` - It's literally 3 lines long now, with an empty line for spacing/readability
+also filled in execute.rb in a similar fashion, only really needed to load in /models.rg and /connect.rn (leave out the .rb in the ```require```)  - It's literally 3 lines long now, with an empty line for spacing/readability
 
-I wonder if running ```execute.rb``` will print out the stuff in /connect
+I wonder if running execute.rb will print out the stuff in /connect
 
 It does!
 Changed a line from ```puts``` to ```print``` so it displays one one line
 
-I'm not sure if there is a ```library.db``` file yet...nope
+I'm not sure if there is a library.db file yet...nope
 
 and I'm getting kinda carried away with the triple-tick code markdown. Wonder how it looks
 
+---
+meh, don't like having so many triple ticks
+
+it makes sense for actual script, but when I'm just refering to files and directories I can just do without I think. Making that change
+
+test: what if I ```ruby execute.rb``` instead of ```bundler exec ruby execute.rb``` ? will it still print from /connect.rb ?
+- yes, yes it will
+
+went to the assignment and added the "Welcome to address book" banner, above the connection message which means above the ```require_relative```
+
+so that's application startup, let me commit and tag it before I get to making the class models
+
+##v0.1##
 ---
