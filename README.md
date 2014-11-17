@@ -95,4 +95,11 @@ that being said, so far so good. and the Menu constant works as expected
 --
 if I have to make the Create New Entry fucntionality, I'll have to write out the models and associations
 
-nice thing is I'm not worried about validation right now, so I think I can get away with simply having the associations 
+nice thing is I'm not worried about validation right now, so I think I can get away with simply having the associations
+
+almost forgot to update the models.rb file with the files I created. Now commiting...
+
+---
+um...so I forgot the 'r' in "requires" when I pasted the statement into those files.
+
+--- 
