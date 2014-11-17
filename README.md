@@ -114,3 +114,8 @@ BUT when I try to look up the schema in the terminal I don't see anything. Maybe
 
 ---
 commiting now to see if I have the syntax right for referring to variables in associated class objects
+
+---
+ah, so it does know "entrys" from "entries" - let me fix that first
+
+---
