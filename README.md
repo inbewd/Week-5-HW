@@ -103,3 +103,8 @@ almost forgot to update the models.rb file with the files I created. Now commiti
 um...so I forgot the 'r' in "requires" when I pasted the statement into those files.
 
 --- 
+wrote the has_one/many in entry.rb, and ```belongs_to :entry``` for the rest. 
+
+Looked online and it says belongs_to should be lower case, even though our class example has ```belongs_to :patrons``` so we'll see how that works
+
+---
