@@ -5,8 +5,7 @@ Menu = [
   "--- MENU ---",
   "1. Create New Entry",
   "2. Search for Entries",
-  "3. Quit Applicatin"
-
+  "3. Quit Application"
 ]
 
 def run_menu()

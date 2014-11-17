@@ -12,15 +12,20 @@ require_relative 'lib/menu_object'
 is_running = true
 
 begin
-m_select = run_menu # stores return value for menu selction
+  puts #new line for spacing
 
-if m_select == 1
+  m_select = run_menu # stores return value for menu selction
 
-elsif m_select == 2
+  if m_select == 1
+    puts # blank line
+    puts "Adding a new entry..."
+    
 
-elsif m_select == 3
+  elsif m_select == 2
 
-else 
-  puts "** Invalid Selection **"
+  elsif m_select == 3
 
-end while (is_running == true)
+  else 
+    puts "** Invalid Selection **"
+  end
+end while is_running == true

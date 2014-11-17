@@ -1,0 +1,1 @@
+equire 'active_record'

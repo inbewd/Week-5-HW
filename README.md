@@ -79,4 +79,20 @@ hmph, I just had a series of if statements to handle the options.
 Oh well, I can work with that
 
 --
-I'm deleting a lot of the ```\n``` in my menu, I can fix the spacing later. For now I'd rather keep it simple 
+I'm deleting a lot of the \n in my menu, I can fix the spacing later. For now I'd rather keep it simple 
+
+ah, and in the last HW I made it have to remake the menu array each time, when I could have the menu variable defined outside of the run_menu method
+
+wait...I don't know if I have the scopes write so let me check that
+
+---
+made a commit, now to run in ruby and test
+
+alright, remember to add and end to the if conditionals, the ```end while BLAH``` for the begin loop does not qualify
+
+that being said, so far so good. and the Menu constant works as expected
+
+--
+if I have to make the Create New Entry fucntionality, I'll have to write out the models and associations
+
+nice thing is I'm not worried about validation right now, so I think I can get away with simply having the associations 
