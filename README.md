@@ -50,5 +50,20 @@ went to the assignment and added the "Welcome to address book" banner, above the
 
 so that's application startup, let me commit and tag it before I get to making the class models
 
-##v0.1##
+---
+##^^ v0.1 ^^##
+---
+on git it has it's own underline, so the extra --- is superflous but I kinda like it. But I might like it more with the hard divide above the header, so let's make it a sandwich and compare(no spacing line on bottom)
+
+and ```git push origin --tags``` does not push the changes like ```git push``` or at least the README didn't update when I went in that order
+
+--
+in the previous assignment, I had an object for the main menu, not a class but a seperate object where I had the display object for it.
+* does it belong in the models folder? It makes some sense to put it there, but by convention is that directory for Classes over objects?
+
+---
+embarrasing enough I took as much time to get around to this.
+
+Writing is a litte harder for me right now, all the more reason to push harder.
+
 ---
