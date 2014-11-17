@@ -67,3 +67,16 @@ embarrasing enough I took as much time to get around to this.
 Writing is a litte harder for me right now, all the more reason to push harder.
 
 ---
+don't think about the line dividers around that old header - it's not important
+
+well I need the schema for the sqlite3 database, with the proper relationships. 
+
+This time around, there can be many phone numbers and emails to each Entry, only one first name and last name
+
+and I think  I can copy most of the menu stuff, with little modification to style.  
+
+hmph, I just had a series of if statements to handle the options.  
+Oh well, I can work with that
+
+--
+I'm deleting a lot of the ```\n``` in my menu, I can fix the spacing later. For now I'd rather keep it simple 
