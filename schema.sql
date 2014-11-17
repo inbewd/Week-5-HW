@@ -11,6 +11,7 @@ CREATE TABLE entrys (
 
 CREATE TABLE first_names (
   id INTEGER PRIMARY KEY,
+  
   name VARCHAR(255),
 
   entrys_id INTEGER
@@ -18,13 +19,16 @@ CREATE TABLE first_names (
 
 CREATE TABLE last_names (
   id INTEGER PRIMARY KEY,
-  surname VARCHAR(255),
+
+  name VARCHAR(255),
 
   entrys_id INTEGER
 );
 
 CREATE TABLE phone_numberss (
   id INTEGER PRIMARY KEY,
+
+  category VARCHAR(255),
   number INTEGER,
 
   entrys_id INTEGER
@@ -32,6 +36,8 @@ CREATE TABLE phone_numberss (
 
 CREATE TABLE emails (
   id INTEGER PRIMARY KEY,
+
+  category VARCHAR(255),
   e_address VARCHAR(255),
 
   entrys_id INTEGER

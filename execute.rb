@@ -19,7 +19,26 @@ begin
   if m_select == 1
     puts # blank line
     puts "Adding a new entry..."
+    e = Entry.new
+
+    puts "First Name:  "
+    f_name = gets.chomp
+
+    e.first_name.name = gets.chomp
+
+    puts e.first_name.name
     
+    puts "Last Name:   "
+
+    e.last_name.name = gets.chomp
+
+    enter_phone = true
+
+    begin
+      puts 
+
+    end while enter_phone == true
+
 
   elsif m_select == 2
 

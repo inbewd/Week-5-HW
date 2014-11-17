@@ -113,3 +113,4 @@ wrote schema.sql
 BUT when I try to look up the schema in the terminal I don't see anything. Maybe I need to put files in it first? dunno, going to commit and try when the app itself
 
 ---
+commiting now to see if I have the syntax right for referring to variables in associated class objects
