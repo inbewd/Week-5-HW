@@ -108,3 +108,8 @@ wrote the has_one/many in entry.rb, and ```belongs_to :entry``` for the rest.
 Looked online and it says belongs_to should be lower case, even though our class example has ```belongs_to :patrons``` so we'll see how that works
 
 ---
+wrote schema.sql
+
+BUT when I try to look up the schema in the terminal I don't see anything. Maybe I need to put files in it first? dunno, going to commit and try when the app itself
+
+---
