@@ -118,4 +118,8 @@ commiting now to see if I have the syntax right for referring to variables in as
 ---
 ah, so it does know "entrys" from "entries" - let me fix that first
 
+and that means I have to have the singular "entry_id" for all the associated models
+
+will that fix the errors? - no, lemme commit and try again
+
 ---

@@ -14,7 +14,7 @@ CREATE TABLE first_names (
   
   name VARCHAR(255),
 
-  entries_id INTEGER
+  entry_id INTEGER
 );
 
 CREATE TABLE last_names (
@@ -22,7 +22,7 @@ CREATE TABLE last_names (
 
   name VARCHAR(255),
 
-  entries_id INTEGER
+  entry_id INTEGER
 );
 
 CREATE TABLE phone_numberss (
@@ -31,7 +31,7 @@ CREATE TABLE phone_numberss (
   category VARCHAR(255),
   number INTEGER,
 
-  entries_id INTEGER
+  entry_id INTEGER
 );
 
 CREATE TABLE emails (
@@ -40,5 +40,5 @@ CREATE TABLE emails (
   category VARCHAR(255),
   e_address VARCHAR(255),
 
-  entries_id INTEGER
+  entry_id INTEGER
 );
