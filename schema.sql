@@ -3,10 +3,10 @@ DROP TABLE IF EXISTS phone_numbers;
 DROP TABLE IF EXISTS emails;
 
 CREATE TABLE entries (
-  id INTEGER PRIMARY KEY
-  first_name VARCHAR(255)
+  id INTEGER PRIMARY KEY,
+  
+  first_name VARCHAR(255),
   last_name VARCHAR(255)
-
 );
 
 CREATE TABLE phone_numbers (  

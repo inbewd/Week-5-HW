@@ -132,3 +132,12 @@ http://edgeguides.rubyonrails.org/active_record_basics.html#naming_conventions
 so PhoneNumbers should be camel cased in the method, and phone_number as the db
 
 ---
+Waaaahooooo
+
+so in the sqlite3 console, the correct way to initialize the database is ```.read schema.sql```
+
+ok, cool. The first and last name work just fine, writing the phone number now
+
+I like the idea of using .downcase and first letter and all, but I want to commit first
+
+---

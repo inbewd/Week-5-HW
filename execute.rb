@@ -22,25 +22,37 @@ begin
     e = Entry.new
 
     puts "First Name:  "
-    f_name = gets.chomp
-
+    
     e.first_name = gets.chomp
-
-    puts e.first_name
 
     puts "Last Name:   "
 
     e.last_name = gets.chomp
 
-=begin
-
     enter_phone = true
 
     begin
-      puts 
+
+      print "Add a phone number? (y/n) : "
+
+      phone_choice = gets.chomp
+
+      if phone_choice == y
+        # blah blah
+
+      elsif phone_choice == n 
+
+        enter_phone = false
+
+      else
+
+        puts "** Invalid Selection **"
+        
+      end
+
 
     end while enter_phone == true
-=end
+
 
 
   elsif m_select == 2
