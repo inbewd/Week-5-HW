@@ -33,21 +33,21 @@ begin
 
     begin
 
-      print "Add a phone number? (y/n) : "
+      print "Add a phone number? (yolo/no-no) : "
 
-      phone_choice = gets.chomp
+      phone_choice = gets.chars.first.downcase.chomp
 
-      if phone_choice == y
-        # blah blah
+      if phone_choice == "y"
+        
 
-      elsif phone_choice == n 
+      elsif phone_choice == "n"
 
         enter_phone = false
 
       else
 
         puts "** Invalid Selection **"
-        
+
       end
 
 

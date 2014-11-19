@@ -141,3 +141,34 @@ ok, cool. The first and last name work just fine, writing the phone number now
 I like the idea of using .downcase and first letter and all, but I want to commit first
 
 ---
+on .downcase https://stackoverflow.com/questions/4474028/ruby-on-rails-uncapitalize-first-letter
+
+and .initial https://stackoverflow.com/questions/2730854/ruby-how-to-get-the-first-character-of-a-string
+
+let's see if that works...damnit not yet sorta
+
+here's what I got:
+
+```phone_choice = gets.initial.downcase.chomp```
+
+and I got
+```
+Add a phone number? (y/n) : yellow
+execute.rb:38:in `<main>': undefined method `initial' for "yellow\n":String (NoMethodError)
+```
+
+so, lemme move the chomp to the front
+wait, scratch that. turns out the stackoverflow first answer actually defined a method for it in class String
+
+what I actually want is .first  
+does that work...NOPE
+
+what if I just had an array [0] for the first character
+
+no - lemme .chars.first - dunno why I like it better, makes an array of characters. the [0] should work but the .chars is more explicit
+
+alright, cool. Commit time
+
+but before that - "y/n" is now "yolo/no-no"
+
+---
