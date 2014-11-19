@@ -183,3 +183,6 @@ but before that - commit! I also assigned the "\*\*Invalid selection\*\*" messag
 - and yes, I do need to escape the splat symbols even when they are in quotes. cuuuurses markdoooown
 
 ---
+alright, after a little bit of research, it seems I have to save the phone numbers seperately, using e.id as the entry_id in the phone_numbers table itself
+
+it'll also help to have ```binding.pry``` so I'm adding that to the gemfile

@@ -3,6 +3,7 @@ puts "### Welcome to Awesome Address Book 2.0 ###"
 puts "###########################################"
 puts # blank line for spacing
 
+require pry 
 require_relative 'lib/connect'
 require_relative 'lib/models'
 
@@ -14,6 +15,9 @@ invalid = "** Invalid Selection **"
 
 begin
   puts #new line for spacing
+
+  # FOR TESTING ONLY
+  Entry.delete_all
 
   m_select = run_menu # stores return value for menu selction
 
@@ -30,6 +34,8 @@ begin
 
     e.last_name = gets.chomp
 
+    e.save
+
     enter_phone = true
 
     begin
@@ -40,8 +46,18 @@ begin
       phone_choice = gets.chars.first.downcase.chomp
 
       if phone_choice == "y"
-        
+        p = PhoneNumber.new()
 
+        p.entry_id = e.id
+
+        print "Category:      "
+        p.category = gets.chomp
+
+        print "Phone Number:  "
+        p.p_num = gets.chomp        
+
+        binding.pry
+        
       elsif phone_choice == "n"
 
         enter_phone = false
@@ -54,6 +70,7 @@ begin
 
 
     end while enter_phone == true
+
 
 
 
