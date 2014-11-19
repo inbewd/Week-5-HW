@@ -123,3 +123,12 @@ and that means I have to have the singular "entry_id" for all the associated mod
 will that fix the errors? - no, lemme commit and try again
 
 ---
+
+alright, so I used ```git rm ``` to remove the first_name and last_name 
+
+um, check the naming conventions for active record:
+http://edgeguides.rubyonrails.org/active_record_basics.html#naming_conventions
+
+so PhoneNumbers should be camel cased in the method, and phone_number as the db
+
+---

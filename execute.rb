@@ -24,13 +24,15 @@ begin
     puts "First Name:  "
     f_name = gets.chomp
 
-    e.first_name.name = gets.chomp
+    e.first_name = gets.chomp
 
-    puts e.first_name.name
-    
+    puts e.first_name
+
     puts "Last Name:   "
 
-    e.last_name.name = gets.chomp
+    e.last_name = gets.chomp
+
+=begin
 
     enter_phone = true
 
@@ -38,6 +40,7 @@ begin
       puts 
 
     end while enter_phone == true
+=end
 
 
   elsif m_select == 2

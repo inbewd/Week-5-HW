@@ -1,6 +1,6 @@
 require 'active_record'
 
-class Phone_number < ActiveRecord::Base
+class PhoneNumber < ActiveRecord::Base
 
   belongs_to :entry
 
