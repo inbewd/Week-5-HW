@@ -179,6 +179,7 @@ Off the top I can't reason how adding multiple phone numbers will work. An array
 
 The good news is the easiest way to figure it out is to just fucking start hacking away. If I can't square it front to back in my head, it's a good sign I have more to learn. 
 
-but before that - commit! I also assigned the "**Invalid selection**" message to a variable since I use it twice. I'm thinking it might make even more sense in the menu object, but that refactoring is worth a pass later. Set the more important functionality first, then optimize the little things that could be cleaner but work just fine.
+but before that - commit! I also assigned the "\*\*Invalid selection\*\*" message to a variable since I use it twice. I'm thinking it might make even more sense in the menu object, but that refactoring is worth a pass later. Set the more important functionality first, then optimize the little things that could be cleaner but work just fine.
+- and yes, I do need to escape the splat symbols even when they are in quotes. cuuuurses markdoooown
 
 ---
