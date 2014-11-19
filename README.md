@@ -166,9 +166,19 @@ does that work...NOPE
 what if I just had an array [0] for the first character
 
 no - lemme .chars.first - dunno why I like it better, makes an array of characters. the [0] should work but the .chars is more explicit
+also: http://ruby-doc.org/core-2.0/String.html#method-i-chars
 
 alright, cool. Commit time
 
 but before that - "y/n" is now "yolo/no-no"
+
+---
+yesterday was a good run, at office hours. Two hours went by real fast and only now getting back to it. Respect momentum, and never take it for granted.
+
+Off the top I can't reason how adding multiple phone numbers will work. An array would be redundant, and I'd have to have an interative loop to save everything back. 
+
+The good news is the easiest way to figure it out is to just fucking start hacking away. If I can't square it front to back in my head, it's a good sign I have more to learn. 
+
+but before that - commit! I also assigned the "**Invalid selection**" message to a variable since I use it twice. I'm thinking it might make even more sense in the menu object, but that refactoring is worth a pass later. Set the more important functionality first, then optimize the little things that could be cleaner but work just fine.
 
 ---

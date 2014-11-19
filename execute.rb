@@ -10,6 +10,7 @@ require_relative 'lib/models'
 require_relative 'lib/menu_object' 
 
 is_running = true
+invalid = "** Invalid Selection **"
 
 begin
   puts #new line for spacing
@@ -35,6 +36,7 @@ begin
 
       print "Add a phone number? (yolo/no-no) : "
 
+      # so that any string that begins with 'y' or 'n' is valid
       phone_choice = gets.chars.first.downcase.chomp
 
       if phone_choice == "y"
@@ -46,7 +48,7 @@ begin
 
       else
 
-        puts "** Invalid Selection **"
+        puts invalid
 
       end
 
@@ -60,6 +62,6 @@ begin
   elsif m_select == 3
 
   else 
-    puts "** Invalid Selection **"
+    puts invalid
   end
 end while is_running == true
