@@ -3,10 +3,21 @@ puts "### Welcome to Awesome Address Book 2.0 ###"
 puts "###########################################"
 puts # blank line for spacing
 
-require pry 
+### Oops: You were missing the quotes around 'pry'.
+###       I went ahead and fixed it so that I could
+###       run the rest of the code.
+require 'pry' 
 require_relative 'lib/connect'
 require_relative 'lib/models'
 
+
+### IMO, it's still worthwhile to move the menu
+### into a separate file.  For instance, you might
+### decide that you'd like to test the menu
+### functionality in the future.  So, having it
+### in a separate file will make it easier to test
+### that feature without executing the rest of
+### the code.
 # technically not a reusable class, but a one-time model, so I'm treating it seperately. dunno if that's the best
 require_relative 'lib/menu_object' 
 
@@ -40,6 +51,7 @@ begin
 
     begin
 
+      ### lol
       print "Add a phone number? (yolo/no-no) : "
 
       # so that any string that begins with 'y' or 'n' is valid
@@ -56,6 +68,7 @@ begin
         print "Phone Number:  "
         p.p_num = gets.chomp        
 
+        ### Oops.  Debug code.
         binding.pry
         
       elsif phone_choice == "n"
